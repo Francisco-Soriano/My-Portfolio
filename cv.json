@@ -1,9 +1,9 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Francisco Soriano",
+    "label": "Silicon Design Engineer 1 @ AMD",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
+    "email": "soriano.francisco3@outlook.com",
     "phone": "+1 555-555-5555",
     "url": "https://johndoe.dev",
     "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
@@ -11,9 +11,9 @@
     "location": {
       "address": "",
       "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "Orlando",
+      "countryCode": "USA",
+      "region": "Florida"
     },
     "profiles": [
       {
