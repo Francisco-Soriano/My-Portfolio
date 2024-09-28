@@ -8,10 +8,19 @@ import { certificates } from "@cv";
 <Section className={Astro.props.className} title="Education">
 	<ul class="space-y-4 py-3 print:space-y-0">
 		{
-			education.map(({ institution, startDate, endDate, area, url }) => {
+			education.map(({ institution, startDate, endDate, studyType, area, score, url }) => {
 				const startYear = new Date(startDate).getFullYear();
 				const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
-				const years = `${startYear} - ${endYear}`;
+				// const years = `${startYear} - ${endYear}`;
+
+				var sMonth = new Date(startDate).getMonth()
+				var eMonth = new Date(endDate).getMonth()
+				const monthNames = [
+					"Jan", "Feb", "Mar", "Apr", "May", "June", 
+					"July", "Aug", "Sept", "Oct", "Nov", "Dec"
+				];
+				const startMonth = monthNames[sMonth];
+				const endMonth = monthNames[eMonth];
 
 				return (
 					<div class="flex items-baseline">
@@ -26,8 +35,8 @@ import { certificates } from "@cv";
 									{institution}
 								</a>
 							</h3>
-							<div class="text-sm text-skin-muted">{area}</div>
-							<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{years}</time>
+							<div class="text-sm text-skin-muted">{studyType} {area} - {score}</div>
+							<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{startMonth} {startYear} - {endMonth} {endYear}</time>
 						</div>
 					</div>
 				);
@@ -42,6 +51,12 @@ import { certificates } from "@cv";
 				<ul class="space-y-4 py-3 print:space-y-0">
 					{certificates.map(({ name, date, issuer, url }) => {
 						const certificateYear = new Date(date).getFullYear();
+						var Month = new Date(date).getMonth()
+						const monthNames = [
+							"Jan", "Feb", "Mar", "Apr", "May", "June", 
+							"July", "Aug", "Sept", "Oct", "Nov", "Dec"
+						];
+						const theMonth = monthNames[Month];
 						return (
 							<div class="flex items-baseline">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2 hidden h-5 w-5 self-start md:inline-block print:hidden">
@@ -57,7 +72,7 @@ import { certificates } from "@cv";
 										</a>
 									</h3>
 									<div class="text-sm text-skin-muted">{issuer}</div>
-									<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{certificateYear}</time>
+									<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{theMonth} {certificateYear}</time>
 								</div>
 							</div>
 						);
