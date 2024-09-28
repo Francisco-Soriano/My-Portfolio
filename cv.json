@@ -60,9 +60,9 @@
       "url": "https://www.ece.ucf.edu/amd-undergraduate-research-fellowship/",
       "startDate": "2023-09-15",
       "endDate": "2024-12-13",
-      "summary": "Completing Synopsys UPF training, designing and verifying RTL, optimizing multipliers, and presenting technical findings.",
+      "summary": "Analyzing UPF's role in the design flow, designing and verifying RTL, optimizing multipliers, and presenting technical findings.",
       "responsibilities": [
-          "Completing the Synopsys ’Design Compiler NXT: UPF Fundamentals’ course that provides an overview and benefits of different power-saving techniques that can be achieved through Unified Power Format (UPF).",
+          "Analyzing how low power design strategies are specified and managed by Unified Power Format (UPF).",
           "Debugging/revising lab colleagues’ Verilog implementations and providing extensive Industry standard feedback.",
           "Designing efficient RTL & testbenches to generate waveform solutions for Digital Systems Lab Curriculum at UCF.",
           "Implementing a parameterized ALU in Verilog of a RISC-V Single Cycle 32 instruction set according to its specifications.",
