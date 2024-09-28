@@ -132,18 +132,6 @@
   "education": [
     {
       "institution": "University of Central Florida",
-      "url": "https://www.ucf.edu/degree/computer-engineering-mspe/",
-      "area": "Computer Engineering",
-      "studyType": "M.S.",
-      "startDate": "2025-01-06",
-      "endDate": "2027-12-13",
-      "score": "GPA: 4.0",
-      "courses": [
-        ""
-      ]
-    },
-    {
-      "institution": "University of Central Florida",
       "url": "https://www.ucf.edu/degree/computer-engineering-bscpe/",
       "area": "Computer Engineering",
       "studyType": "B.S.",
