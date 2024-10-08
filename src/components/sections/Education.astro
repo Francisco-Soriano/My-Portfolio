@@ -7,7 +7,7 @@ import { awards } from "@cv";
 import { interests } from "@cv";
 ---
 
-<Section className={Astro.props.className} title="Education"></Section>
+<Section className={Astro.props.className} title="Education">
 	<ul class="space-y-4 py-3 print:space-y-0">
 		{
 			education.map(({ institution, startDate, endDate, studyType, area, score, url }) => {
@@ -44,6 +44,7 @@ import { interests } from "@cv";
 		}
 	</ul>
 </Section>
+
 
 
 <Section className={Astro.props.className} title="Graduate Coursework">
