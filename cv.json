@@ -201,6 +201,9 @@
       "name": "Soldering"
     },
     {
+      "name": "CAD"
+    },
+    {
       "name": "BASYS 3 FPGA"
     },
     {
@@ -225,10 +228,10 @@
       "name": "Perforce"
     },
     {
-      "name": "ETX"
+      "name": "Git/Github"
     },
     {
-      "name": "Git/Github"
+      "name": "ETX"
     }
   ],
   "languages": [
