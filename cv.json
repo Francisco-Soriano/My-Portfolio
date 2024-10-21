@@ -292,6 +292,18 @@
       ],
       "url": "https://maverick.eecs.ucf.edu/seniordesign/sp2024su2024/g17/",
       "github": "https://github.com/thedeclancarter/GPMS"
+    },
+    {
+      "name": "Multi-Cycle CPU/Processor in Verilog",
+      "isActive": true,
+      "description": "Implemented a simplified multi-cycle CPU using Verilog, capable of performing arithmetic, memory, and control instructions, gaining hands-on experience in designing a key component of modern computer systems.",
+      "highlights": [
+        "Implemented a single-core multicycle stage CPU in Verilog capable of decoding various instructions and accessing memory registers.",
+        "Utilized Verilog features to manage appropriate data sizes and types, ensuring accurate operations in each cycle.",
+        "Designed the CPU to perform fetch, decode, execute, and write-back stages efficiently."
+      ],
+      "url": false,
+      "github": false
     }
   ]
 }
