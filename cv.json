@@ -302,8 +302,8 @@
         "Utilized Verilog features to manage appropriate data sizes and types, ensuring accurate operations in each cycle.",
         "Designed the CPU to perform fetch, decode, execute, and write-back stages efficiently."
       ],
-      "url": false,
-      "github": false
+      "url": "",
+      "github": ""
     }
   ]
 }
