@@ -119,6 +119,11 @@
   ],
   "volunteer": [
     {
+      "startDate": "2024-10-22",
+      "position": "UCF x DRACO Lab Representative for UCF COMPASS",
+      "summary": "Providing insight/introducing incoming UCF students to Research endeavors."
+    },
+    {
       "startDate": "2024-09-06",
       "position": "UCF x AMD ACM GBM Panelist",
       "summary": "Answering questions/giving advice to UCF students on best Academic practices for Industry."

@@ -133,16 +133,16 @@ const SKILLS_ICONS: Record<string, any> = {
 <Section className={Astro.props.className} title="Educational Outreach">
   <ul class="flex flex-col">
     {volunteer.map(({ startDate, position, summary }) => {
-      const date = new Date(startDate);
-      const monthNames = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
-      const startMonth = monthNames[date.getMonth()];
-      const startYear = date.getFullYear();
+      const date = new Date(startDate); // assuming startDate is a string in "YYYY-MM-DD" format
+      const startDay = date.getUTCDate(); // Use getUTCDate to avoid timezone issues
+      const startMonth = date.toLocaleString('en-US', { month: 'short', timeZone: 'UTC' }); // Get the UTC month
+      const startYear = date.getUTCFullYear(); // Use UTC full year
 
       return (
         <li class="relative print:py-2">
           <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6">
             <header class="relative mt-1 text-xs font-semibold sm:col-span-2">
-              <span>{`${startMonth} ${startYear}`}</span>
+              <span>{`${startMonth} ${startDay}, ${startYear}`}</span>
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
               <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
