@@ -284,11 +284,12 @@
     {
       "name": "GPMS: Generative Projection Mapping System",
       "isActive": true,
-      "description": "GPMS brings professional projection mapping technology to everyday users, offering immersive visual storytelling for hobbyists and entertainers.",
+      "description": "Accurately projects an image onto a structure using OpenCV, by making sure the key parts of the image line up with the features of the surface it is projecting onto.",
       "highlights": [
-        "Accurately projects an image onto a structure using computer vision by making sure the key parts of the image line up with the features of the surface it is projecting onto.",
-        "The touchscreen interface let's the user interact seamlessly with the system.",
-        "Relies on an optimal power supply unit to run reliably throughout operation."
+        "Integrating API data fetching and dynamic image display in the Qt application, improving user interaction by asynchronously displaying fetched images.",
+        "Designing an optimal hardware enclosure using CAD meant to house GPMS components.",
+        "Designing a PCB with strategic placement/layout/traces using Fusion360 to supply power to a Raspberry Pi 5.",
+        "Designing & maintaining a website to showcase Senior Design Group Project using HTML and CSS."
       ],
       "url": "https://maverick.eecs.ucf.edu/seniordesign/sp2024su2024/g17/",
       "github": "https://github.com/thedeclancarter/GPMS"
@@ -296,14 +297,14 @@
     {
       "name": "Multi-Cycle CPU/Processor in Verilog",
       "isActive": true,
-      "description": "Implemented a simplified multi-cycle CPU using Verilog, capable of performing arithmetic, memory, and control instructions, gaining hands-on experience in designing a key component of modern computer systems.",
+      "description": "Implementing a simplified multi-cycle CPU using Verilog, capable of performing arithmetic, memory, and control instructions, gaining hands-on experience in designing a key component of modern computer systems.",
       "highlights": [
-        "Implemented a single-core multicycle stage CPU in Verilog capable of decoding various instructions and accessing memory registers.",
-        "Utilized Verilog features to manage appropriate data sizes and types, ensuring accurate operations in each cycle.",
-        "Designed the CPU to perform fetch, decode, execute, and write-back stages efficiently."
+        "Implementing a single-core multicycle stage CPU in Verilog capable of decoding various instructions and accessing memory registers.",
+        "Utilizing Verilog features to manage appropriate data sizes and types, ensuring accurate operations per each cycle.",
+        "Designing the CPU to perform fetch, decode, execute, and write-back stages efficiently."
       ],
       "url": "",
-      "github": ""
+      "github": "https://github.com/Francisco-Soriano/CPU"
     }
   ]
 }
