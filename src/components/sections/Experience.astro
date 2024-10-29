@@ -38,6 +38,7 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 <Section className={Astro.props.className} title="Work & Research Experience">
+  <a href="/Resume.pdf" class="text-skin-hue underline" target="_blank" rel="noopener noreferrer">View/Download Resume</a>
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, url, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
