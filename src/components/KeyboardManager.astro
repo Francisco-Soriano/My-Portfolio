@@ -190,19 +190,22 @@ const profilesInfo = profiles.map(({ network, url }) => {
 		animation-range: entry 100% cover 10%;
 	}
 	kbd {
-		@apply bg-skin-muted;
+		background-color: #333; /* Darker for contrast */
+		color: #fff; /* White text for visibility */
 		border-radius: 4px;
 		padding: 2px 4px;
 		font-size: 12px;
 	}
 	#hotkeypad {
-		--hotkeypad-bg-kbd: rgb(var(--muted));
-		--hotkeypad-bg-backdrop: rgb(var(--color-fill));
-		--hotkeypad-bg-container: rgb(var(--color-fill));
-		--hotkeypad-bg-item-hover: rgba(var(--color-text), 20%);
-		--hotkeypad-border-container: rgb(var(--muted));
-		--hotkeypad-border-container-hover: rgb(var(--color-fill));
-		--hotkeypad-fg-muted: rgb(var(--muted));
+		#hotkeypad {
+			--hotkeypad-bg-kbd: #333; /* Darker background for keys */
+			--hotkeypad-bg-backdrop: #fafafa; /* Lighter background */
+			--hotkeypad-bg-container: #fff;
+			--hotkeypad-bg-item-hover: rgba(0, 0, 0, 0.1); /* Higher contrast hover */
+			--hotkeypad-border-container: #444; /* Darker border for container */
+			--hotkeypad-border-container-hover: #333; /* Slightly darker hover */
+			--hotkeypad-fg-muted: #555; /* Darker text for muted elements */
+		}
 		@media (prefers-color-scheme: dark) {
 			--hotkeypad-bg-kbd: rgb(var(--muted));
 			--hotkeypad-bg-backdrop: rgb(var(--color-fill));
