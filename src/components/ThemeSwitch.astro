@@ -25,6 +25,12 @@ import Theme from "@/icons/themeSwitch.astro";
 		:global(.dark) {
 			color-scheme: dark;
 		}
+		/* Style adjustments for dark mode */
+		:global(.dark) #themeSwitch {
+            color: #E5E7EB; /* Adjust this to a lighter color if needed */
+            background-color: #000000; /* Dark background */
+            border-color: #4B5563; /* Border color */
+        }
 	</style>
 
 	<script>
