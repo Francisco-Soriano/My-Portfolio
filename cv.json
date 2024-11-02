@@ -300,7 +300,7 @@
       "github": "https://github.com/thedeclancarter/GPMS"
     },
     {
-      "name": "Design of a Multi-Cycle CPU/Processor in Verilog",
+      "name": "Design of a Multi-Cycle CPU/Processor",
       "isActive": true,
       "description": "Implementing a simplified multi-cycle CPU using Verilog, capable of performing arithmetic, memory, and control instructions, gaining hands-on experience in designing a key component of modern computer systems.",
       "highlights": [
