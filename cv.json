@@ -206,10 +206,7 @@
       "name": "Soldering"
     },
     {
-      "name": "CAD"
-    },
-    {
-      "name": "BASYS 3 FPGA"
+      "name": "Fusion 360"
     },
     {
       "name": "Digital Multimeter"
@@ -227,13 +224,16 @@
       "name": "Xilinx-Vivado"
     },
     {
-      "name": "Fusion 360"
+      "name": "BASYS 3 FPGA"
     },
     {
       "name": "Perforce"
     },
     {
-      "name": "Git/Github"
+      "name": "Git"
+    },
+    {
+      "name": "GitHub"
     },
     {
       "name": "ETX"
