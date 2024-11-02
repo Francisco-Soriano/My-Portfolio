@@ -289,10 +289,10 @@
     {
       "name": "GPMS: Generative Projection Mapping System",
       "isActive": true,
-      "description": "Accurately projects an image onto a structure using OpenCV, by making sure the key parts of the image line up with the features of the surface it is projecting onto.",
+      "description": "Accurately projects an AI generated image onto a structure using OpenCV's Library (Canny Edge Detection), by making sure the key parts of the image line up with the features of the surface it is projecting onto.",
       "highlights": [
         "Integrating API data fetching and dynamic image display in the Qt application, improving user interaction by asynchronously displaying fetched images.",
-        "Designing an optimal hardware enclosure using CAD meant to house GPMS components.",
+        "Designing an optimal hardware enclosure using CAD meant to house GPMS components and perfoming appropriate adjustments with lab tools.",
         "Designing a PCB with strategic placement/layout/traces using Fusion360 to supply power to a Raspberry Pi 5.",
         "Designing & maintaining a website to showcase Senior Design Group Project using HTML and CSS."
       ],
@@ -300,16 +300,30 @@
       "github": "https://github.com/thedeclancarter/GPMS"
     },
     {
-      "name": "Multi-Cycle CPU/Processor in Verilog",
+      "name": "Design of a Multi-Cycle CPU/Processor in Verilog",
       "isActive": true,
       "description": "Implementing a simplified multi-cycle CPU using Verilog, capable of performing arithmetic, memory, and control instructions, gaining hands-on experience in designing a key component of modern computer systems.",
       "highlights": [
         "Implementing a single-core multicycle stage CPU in Verilog capable of decoding various instructions and accessing memory registers.",
         "Utilizing Verilog features to manage appropriate data sizes and types, ensuring accurate operations per each cycle.",
-        "Designing the CPU to perform fetch, decode, execute, and write-back stages efficiently."
+        "Designing the CPU to perform Instruction Fetch, Instruction Decode, Execute, and Write-Back stages efficiently.",
+        "Generating waveforms to view output behavior and verify correct functionality of each CPU sub-module."
       ],
       "url": "",
-      "github": "https://github.com/Francisco-Soriano/CPU"
+      "github": "https://github.com/Francisco-Soriano/Multi-Cycle-CPU-Implementation"
+    },
+    {
+      "name": "Verification of a Single-Cycle RISC-V CPU/Processor",
+      "isActive": true,
+      "description": "Group project aimed at verifying the functionality of a Single-Cycle RISC-V Processor using coverage techniques and constraints to gain full coverage on its various modules.",
+      "highlights": [
+        "Analyzing the Architecture of a RISC-V CPU Processor, while honing in on the Instruction Fetch, Decode, Execution, Memory Access, and Write-Back stages/behavior of the Processor.",
+        "Creating component-level comprehensive verification testbenches, targeting individual modules such as the ALU, decoder, register file, and control logic.",
+        "Conducting functional verification using SystemVerilog with randomized input generation, opcode constraints, and weighted distributions in order to achieve 100% functional coverage for the critical opcodes and register addresses.",
+        "Enhancing verification methodology by implementing pass/fail logic, accounting for edge cases, and manual checks to ensure expected outputs matched actual results across modules."
+      ],
+      "url": "",
+      "github": "https://github.com/Francisco-Soriano/Verification-of-a-RISC-V-Processor"
     }
   ]
 }
