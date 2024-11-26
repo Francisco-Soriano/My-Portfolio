@@ -260,7 +260,11 @@
   ],
   "awards": [
     {
-      "name": "President's List - (Spring 2024) (Fall 2023)",
+      "name": "Senior Design Showcase Semi-Finalist - (Fall 2024)",
+      "issuer": "University of Central Florida (UCF) - College of Engineering & Computer Science (CECS)"
+    },
+    {
+      "name": "President's List - (Spring 2024) (Fall 2023) (Fall 2024)",
       "issuer": "University of Central Florida (UCF) - College of Engineering & Computer Science (CECS)"
     },
     {
@@ -272,12 +276,12 @@
       "issuer": "Eastern Florida State College - Office of the President"
     },
     {
-      "name": "31st Annual Community Service-Learning Award - (May 2019)",
-      "issuer": "Eastern Florida State College - Office of the President"
-    },
-    {
       "name": "2021 Evelyn Johnson Scholarship - (July 2021)",
       "issuer": "The National Aeronautics and Space Administration (NASA) - Kennedy Space Center (KSC)"
+    },
+    {
+      "name": "31st Annual Community Service-Learning Award - (May 2019)",
+      "issuer": "Eastern Florida State College - Office of the President"
     }
   ],
   "interests": [
