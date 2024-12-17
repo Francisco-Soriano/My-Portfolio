@@ -41,28 +41,31 @@ const SKILLS_ICONS: Record<string, any> = {
   <a href="/FranciscoSorianoResumeDecember2024.pdf" class="text-skin-hue underline" target="_blank" rel="noopener noreferrer">View/Download 1-Page Resume</a>
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, url, location, location_type }) => {
-      const startYear = new Date(startDate).getFullYear()
+      const startDateObj = new Date(startDate);
+      const endDateObj = endDate ? new Date(endDate) : null;
 
-      var sMonth = new Date(startDate).getMonth()
-      var eMonth = new Date(endDate).getMonth()
-      const date = new Date();
       const monthNames = [
         "Jan.", "Feb.", "Mar.", "Apr.", "May", "June", 
         "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."
       ];
-      const startMonth = monthNames[sMonth];
-      const endMonth = monthNames[eMonth];
 
-      const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
+      const startDay = startDateObj.getDate(); // Get day
+      const startMonth = monthNames[startDateObj.getMonth()]; // Get month
+      const startYear = startDateObj.getFullYear(); // Get year
+
+      const endDay = endDateObj ? endDateObj.getDate() : null;
+      const endMonth = endDateObj ? monthNames[endDateObj.getMonth()] : "Present";
+      const endYear = endDateObj ? endDateObj.getFullYear() : "";
 
       return (
         <li class="relative print:py-2">
-          <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6 lg:hover:!opacity-100 ">
+          <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6 lg:hover:!opacity-100">
             <header class="relative mt-1 text-xs font-semibold sm:col-span-2">
-              <time datetime={startDate} data-title={startDate}>{startMonth} {startYear}</time> - <time datetime={endDate} data-title={endDate}>{endMonth} {endYear}</time>
+              <time datetime={startDate} data-title={startDate}>{`${startMonth} ${startDay}, ${startYear}`}</time> - 
+              <time datetime={endDate} data-title={endDate}>{endDateObj ? `${endMonth} ${endDay}, ${endYear}` : "Present"}</time>
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
-            <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
+              <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
               <h3>
                 <div class="inline-flex items-center text-lg print:text-base leading-tight group/link focus-visible:text-amber-500" aria-label="{position} - {company}">
                   <span>{position} <span>@</span> 
@@ -134,19 +137,22 @@ const SKILLS_ICONS: Record<string, any> = {
 <Section className={Astro.props.className} title="Educational & Volunteer Outreach">
   <ul class="flex flex-col">
     {volunteer.map(({ startDate, position, summary }) => {
-      const date = new Date(startDate); // assuming startDate is a string in "YYYY-MM-DD" format
+      const startDateObj = new Date(startDate);
+
       const monthNames = [
         "Jan.", "Feb.", "Mar.", "Apr.", "May", "June", 
         "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."
       ];
-      const startMonth = monthNames[date.getUTCMonth()]; // Get month with a dot
-      const startYear = date.getUTCFullYear(); // Get full year
+
+      const startDay = startDateObj.getDate(); // Get day
+      const startMonth = monthNames[startDateObj.getMonth()]; // Get month
+      const startYear = startDateObj.getFullYear(); // Get year
 
       return (
         <li class="relative print:py-2">
           <div class="group relative grid pb-1 print:pb-0 transition-all print:grid-cols-1 print:gap-1 sm:grid-cols-12 sm:gap-8 md:gap-6">
             <header class="relative mt-1 text-xs font-semibold sm:col-span-2">
-              <span>{`${startMonth} ${startYear}`}</span>
+              <span>{`${startMonth} ${startDay}, ${startYear}`}</span>
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
               <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
