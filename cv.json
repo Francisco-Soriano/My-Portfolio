@@ -31,6 +31,19 @@
   "work": [
     {
       "name": "Advanced Micro Devices",
+      "position": "Silicon Design Engineer I",
+      "location_type": "On site",
+      "location": "Orlando, FL.",
+      "url": "https://www.amd.com/en.html",
+      "startDate": "2025-01-06",
+      "endDate": "",
+      "summary": "Power Architecture",
+      "responsibilities": [
+        "Utilizing AsciiDoc to document/update proposal for Hardware Architecture designed for speed-up."
+      ]
+    },
+    {
+      "name": "Advanced Micro Devices",
       "position": "Silicon Design Engineer Intern",
       "location_type": "On site",
       "location": "Orlando, FL.",
@@ -303,11 +316,15 @@
   ],
   "interests": [
     {
-      "name": "Verification & Validation of Digital Systems: The Complete Industry Lifecycle",
+      "name": "Modern EDA Algorithms in VLSI",
       "keywords": ""
     },
     {
       "name": "Computer Aided Design for VLSI",
+      "keywords": ""
+    },
+    {
+      "name": "Verification & Validation of Digital Systems: The Complete Industry Lifecycle",
       "keywords": ""
     }
   ],
