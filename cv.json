@@ -39,7 +39,7 @@
       "endDate": "",
       "summary": "Power Architecture",
       "responsibilities": [
-        "Utilizing AsciiDoc to document/update proposal for Hardware Architecture designed for speed-up."
+        ""
       ]
     },
     {
@@ -52,17 +52,7 @@
       "endDate": "2024-08-09",
       "summary": "Analyzing current bottleneck in the RDNA Graphics Pipeline & micro-architecture for GPU optimization and collaborating with Engineers regarding potential solutions to reduce latency within it.",
       "responsibilities": [
-        "Utilizing AsciiDoc to document/update proposal for Hardware Architecture designed for speed-up.",
-        "Tracing & tying ports/signals within RTL datapath via top-down approach between corresponding Verilog files.",
-        "Utilizing Verdi to view waveforms & verify existing latency within datapath of Graphics Pipeline using load/drive signals.",
-        "Giving intermediate technical presentations depicting RTL signal traces & proposed Architecture for latency optimization.",
-        "Designing & implementing a custom RISC-V instruction extension designed for decreasing existing latency.",
-        "Designing & modifying RTL to support the new instruction’s functionality, in addition to running specific validation tests.",
-        "Creating & modifying Firmware to support instruction integration followed by running tests & strategic debugging.",
-        "Analyzing the existing Design Verification Testbench designed for where the instruction extension would be used.",
-        "Analyzing the Static Timing Analysis workflow performed, in addition to learning how to architect for speed.",
-        "Creating an inaugural Intern Reference Guide for future AMD Orlando Interns containing essential links, commands, and FAQs that will rapidly speed up intern adaptation to the company.",
-        "Presenting Summer accomplishments/deliverables to Orlando site & Hardware Architecture Team."
+        ""
       ]
     },
     {
