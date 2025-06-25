@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Francisco Soriano",
-    "label": "Incoming Silicon Design Engineer 1 @ AMD",
+    "label": "Silicon Design Engineer 1 @ AMD",
     "image": "/francisco.jpg",
     "email": "soriano.francisco3@outlook.com",
     "phone": "321-603-9123",
     "url": "https://franciscosportfolio.vercel.app/",
-    "summary": "Enthusiastic incoming Silicon Design Engineer 1 with a passion for bridging the gap between Academia & Industry.",
+    "summary": "Enthusiastic Silicon Design Engineer with a passion of exploring and executing power reduction methodologies.",
     "theme": "red",
     "location": {
       "address": "",
@@ -37,7 +37,7 @@
       "url": "https://www.amd.com/en.html",
       "startDate": "2025-01-06",
       "endDate": "",
-      "summary": "Power Architecture",
+      "summary": "GPU Power Architecture",
       "responsibilities": [
         ""
       ]
@@ -122,6 +122,26 @@
   ],
   "volunteer": [
     {
+      "startDate": "2024-04-18",
+      "position": "UCF ECE Senior Design Semi-Finalist & Finalist Judge",
+      "summary": "Judging the UCF ECE Senior Design Showcase for the Semi-Finalist & Finalist teams in the ECE department."
+    },
+    {
+      "startDate": "2024-04-18",
+      "position": "UCF/AMD Guest Presenter/Liaison",
+      "summary": "Delivering an interactive presentation to an undergraduate Computer Organization UCF ECE lecture on the VLSI opportunities available to them currently via UCF and post-graduation. Giving high level overview of day-to-day work responsibilities at AMD and how it relates to Computer Organization coursework."
+    },
+    {
+      "startDate": "2024-04-17",
+      "position": "UCF/AMD Guest Presenter/Liaison",
+      "summary": "Delivering an interactive presentation to an undergraduate Digital Systems UCF ECE lecture on the VLSI opportunities available to them currently via UCF and post-graduation. Giving high level overview of day-to-day work responsibilities at AMD and how it relates to Digital Systems coursework."
+    },
+    {
+      "startDate": "2025-03-26",
+      "position": "UCF/AMD Guest Presenter/Liaison",
+      "summary": "Delivering an interactive presentation to an undergraduate Linear Circuits II UCF ECE lecture on the VLSI opportunities available to them currently via UCF and post-graduation. Giving high level overview of day-to-day work responsibilities at AMD and how it relates to Linear Circuits II coursework."
+    },
+    {
       "startDate": "2024-11-15",
       "position": "AMD x Habitat for Humanity Volunteer",
       "summary": "On behalf of the AMD Service Day partnered with Habitat for Humanity, I joined a hard-working team to assist in the refinement of a local house for a future homeowner."
@@ -202,19 +222,16 @@
       "name": "Python"
     },
     {
-      "name": "C/C++"
+      "name": "C"
     },
     {
-      "name": "Java"
+      "name": "MIPS Assembly"
     },
     {
-      "name": "HTML"
+      "name": "Asciidoc"
     },
     {
-      "name": "CSS"
-    },
-    {
-      "name": "LaTeX"
+      "name": "BASYS 3 FPGA"
     },
     {
       "name": "PCB Design/Layout/Routing/Assembly"
@@ -229,10 +246,22 @@
       "name": "Digital Multimeter"
     },
     {
-      "name": "Verdi"
+      "name": "PrimePower"
+    },
+    {
+      "name": "PowerArtist"
+    },
+    {
+      "name": "Synopsys Verdi"
     },
     {
       "name": "Linux"
+    },
+    {
+      "name": "Vim/GVim"
+    },
+    {
+      "name": "Perforce"
     },
     {
       "name": "VSCode"
@@ -241,19 +270,19 @@
       "name": "Xilinx-Vivado"
     },
     {
-      "name": "BASYS 3 FPGA"
-    },
-    {
-      "name": "Perforce"
-    },
-    {
       "name": "Git"
     },
     {
       "name": "GitHub"
     },
     {
-      "name": "ETX"
+      "name": "Confluence"
+    },
+    {
+      "name": "Jira"
+    },
+    {
+      "name": "Excel"
     }
   ],
   "languages": [
