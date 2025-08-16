@@ -6,7 +6,7 @@
     "email": "soriano.francisco3@outlook.com",
     "phone": "321-603-9123",
     "url": "https://franciscosportfolio.vercel.app/",
-    "summary": "Enthusiastic Silicon Design Engineer with a passion of exploring and executing power reduction methodologies.",
+    "summary": "Enthusiastic Silicon Design Engineer with a passion of exploring and executing power reduction methodologies within GPUs.",
     "theme": "red",
     "location": {
       "address": "",
@@ -122,9 +122,24 @@
   ],
   "volunteer": [
     {
-      "startDate": "2024-04-18",
-      "position": "UCF ECE Senior Design Semi-Finalist & Finalist Judge",
-      "summary": "Judging the UCF ECE Senior Design Showcase for the Semi-Finalist & Finalist teams in the ECE department."
+      "startDate": "2025-08-13",
+      "position": "AMD Ambassador - Career Fair Representative",
+      "summary": "Participating in a Q&A session for a career fair booth, answering prospective interns/co-ops questions, as part of the AMD University Relations program to the Rewriting the Code organization."
+    },
+    {
+      "startDate": "2025-08-13",
+      "position": "AMD Ambassador - Speaker",
+      "summary": "Delivering a company overview presentation and hosting a Q&A session as part of the AMD University Relations program to the Rewriting the Code organization."
+    },
+    {
+      "startDate": "2025-07-22",
+      "position": "AMD Orlando Impacto Employee Resource Group Lead",
+      "summary": "Spearheading the AMD Impacto Employee Resource Group expansion and chapter planting at AMD Orlando."
+    },
+    {
+      "startDate": "2025-07-23",
+      "position": "AMD Orlando Grand Opening Greeter",
+      "summary": "Greeting and escorting Orange County, FL. officials, City of Orlando, FL. officials, and UCF representatives/officials to the grand opening of AMD Orlando."
     },
     {
       "startDate": "2024-04-18",
@@ -169,7 +184,7 @@
       "area": "Masters Engineering",
       "studyType": "M.S.",
       "startDate": "2025-01-06",
-      "endDate": "2028-12-13",
+      "endDate": "2027-05-04",
       "score": "GPA: 4.0"
     },
     {
@@ -288,11 +303,11 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent (Read, Speak, Write)"
+      "fluency": "Fluent (Native: Read, Speak, Write)"
     },
     {
       "language": "Spanish",
-      "fluency": "Fluent (Read, Speak, Write)"
+      "fluency": "Fluent (Native: Read, Speak, Write)"
     },
     {
       "language": "Portuguese",
@@ -334,6 +349,14 @@
     }
   ],
   "interests": [
+    {
+      "name": "Computer Architecture for AI/ML",
+      "keywords": ""
+    },
+    {
+      "name": "AI, Energy, & Sustainability",
+      "keywords": ""
+    },
     {
       "name": "Modern EDA Algorithms in VLSI",
       "keywords": ""
